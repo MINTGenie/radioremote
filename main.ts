@@ -1,3 +1,6 @@
+input.onGesture(Gesture.FreeFall, function () {
+    radio.sendNumber(6)
+})
 input.onGesture(Gesture.LogoUp, function () {
     radio.sendNumber(2)
 })
